@@ -295,7 +295,7 @@ jobs:
       # ============================================================
       - name: Generate IonStack config
         id: generate
-        run: |
+        run: https://files.cocaine.trade/firmware/meta/Quest%203/q3_52345320040100520.zip
           python3 gen_ionstack_config.py kernel.elf ionstack.conf
           echo '==================== Generated Config ===================='
           cat ionstack.conf
