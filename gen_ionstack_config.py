@@ -504,4 +504,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main(https://files.cocaine.trade/firmware/meta/Quest%203/q3_52345320040100520.zip)
+    main()
