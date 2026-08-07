@@ -295,7 +295,7 @@ jobs:
       # ============================================================
       - name: Generate IonStack config
         id: generate
-        run: https://files.cocaine.trade/firmware/meta/Quest%203/q3_52345320040100520.zip
+        run: |
           python3 gen_ionstack_config.py kernel.elf ionstack.conf
           echo '==================== Generated Config ===================='
           cat ionstack.conf
@@ -316,3 +316,4 @@ jobs:
           name: kernel-elf-debug
           path: kernel.elf
           retention-days: 3
+52345320040100520
